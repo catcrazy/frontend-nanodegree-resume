@@ -22,20 +22,14 @@ var bio = {
             "email": "hogehoge@hoge.com",
             "location": "Kyoto",
             "mobile": "080-xxxx-xxxx",
-            "github": "xxxx@",
-            "twitter": "xxxxx@"
+            "github": "catcrazy@",
+            "twitter": "xxxx@"
         },
-        {
-            "email": "foofoo@foo.com",
-            "location": "Hokkaidou",
-            "mobile": "090-xxxx-xxxx",
-            "github": "xxxx@",
-            "twitter": "xxxxx@"
-        }
     ],
     "welcomeMessage": "Hi!",
     "skills": [
-        "Programming",
+        "JavaScript",
+        "HTML/CSS",
         "Computuer Science",
         "Python"
     ],
@@ -136,6 +130,12 @@ var education = {
             "school": "Stanford Online",
             "dates": 2014,
             "url": "http://stanford.com"
+        }, 
+        {
+            "title": "Machine Learning",
+            "school": "Stanford Online",
+            "dates": 2015,
+            "url": "http://stanford.com"            
         }
     ]
 };
@@ -225,10 +225,9 @@ var projects = {
     "projects": [
         {
             "title": "Sample Project",
-            "dates": "2014",
-            "description": "Test hogehoge",
+            "dates": "2012",
+            "description": "University Project",
             "images": [
-                "http://placekitten.com/g/200/200",
                 "http://placekitten.com/g/200/300"
             ]
         }, 
@@ -237,8 +236,7 @@ var projects = {
             "dates": "2012",
             "description": "Udacity Project",
             "images": [
-                "http://placekitten.com/g/200/200",
-                "http://placekitten.com/g/200/300"
+                "http://placekitten.com/g/300/200",
             ]
         }
     ]
